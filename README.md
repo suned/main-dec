@@ -1,9 +1,9 @@
-# `cli`
+# `main_dec`
 
 A small library for painless commandline argument parsing in python.
 ## Install
 
-`> pip install cli`
+`> pip install main-dec`
 
 ## Quickstart
 ```python
@@ -11,7 +11,7 @@ A small library for painless commandline argument parsing in python.
 
 from typing import Tuple
 
-from cli import main
+from main_dec import main
 
 
 @main
@@ -57,7 +57,7 @@ Optional arguments to your function will be parsed as optional arguments.
 ```python
 # my_cli.py
 
-from cli import main
+from main_dec import main
 
 
 @main
@@ -85,7 +85,7 @@ truthiness.
 ```python
 # my_cli.py
 
-from cli import main
+from main_dec import main
 
 @main
 def run(positive_flag=False, negative_flag=True):
@@ -105,7 +105,7 @@ types converted before they are passed to your function.
 
 from typing import Tuple 
 
-from cli import main
+from main_dec import main
 
 
 @main
@@ -132,7 +132,7 @@ or arguments with default values with mixed types
 
 from typing import Tuple
 
-from cli import main
+from main_dec import main
 
 
 @main
@@ -166,7 +166,7 @@ to enforce that an argument must have certain values.
 
 from enum import Enum
 
-from cli import main
+from main_dec import main
 
 class Choice(Enum):
     first = 1
@@ -199,7 +199,7 @@ and help messages
 ```python
 # my_cli.py
 
-from cli import main
+from main_dec import main
 
 @main
 def run(arg: str):

@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "A tiny library for creating CLIs"
 authors = ["Sune Debel <sad@archii.ai>"]
 readme = 'README.md'
+homepage = 'https://github.com/suned/main-dec'
 
 [tool.poetry.dependencies]
 python = "^3.6"
