@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "main-dec"
+version = "0.1.0"
+description = "A tiny library for creating CLIs"
+authors = ["Sune Debel <sad@archii.ai>"]
+readme = 'README.md'
+
+[tool.poetry.dependencies]
+python = "^3.6"
+stringcase = "^1.2"
+docstring-parser = "^0.3.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+ipdb = "^0.12.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
